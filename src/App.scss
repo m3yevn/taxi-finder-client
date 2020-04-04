@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-family: 'Istok Web', sans-serif;
+  line-height: 1.5;
+}
+
+.logo {
+  background-image: url('./assets/img/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+.wrapper__bar_loader {
+  z-index: 99999;
+  position: absolute;
+  width: 100%;
+}
