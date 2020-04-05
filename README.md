@@ -41,6 +41,7 @@ https://github.com/m3yevn/taxi-finder-graphql/
 ``
     $ npm run start
 ``
+The project should be running on http://localhost:3000
 
 ### How to test 🧪
 
