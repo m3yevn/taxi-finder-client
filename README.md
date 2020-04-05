@@ -14,11 +14,11 @@ This endpoint will return a list of driver locations, nearby to the location.
 
 ### Tech Stack 📚
 
- - React for Frontend
- - Rebass for UI
- - Leaflet for canvas map
- - Apollo for GraphQL
- - Jest for testing
+ - React for Frontend 💎
+ - Rebass for UI 🚀
+ - Leaflet for canvas map 🔥 
+ - Apollo for GraphQL 🚨
+ - Jest for testing ✨
  
 ### Note 🌞
 
