@@ -50,6 +50,19 @@ https://github.com/m3yevn/taxi-finder-graphql/
     $ npm run test
 ``
 
+### How to run on Docker 🐳
+
+```sh
+    $ docker pull m3yevn/taxi-finder-client:latest
+    $ docker run -d -p 3000:80 --name taxi-finder-client m3yevn/taxi-finder-client:latest
+```
+
+### How to build on docker image 🐳
+
+```sh
+    $ docker build -t <**image_tag**> .
+```
+
 ### Screenshot
 
 <img src="screenshots/taxi-finder-client-ss.png" alt="screenshot" />

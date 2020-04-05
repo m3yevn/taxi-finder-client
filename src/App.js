@@ -5,6 +5,7 @@ import { ThemeProvider } from 'emotion-theming';
 import { ApolloProvider } from '@apollo/react-hooks';
 import { Navbar } from './components/Navbar';
 import { Map } from './components/Map';
+import { Footer } from './components/Footer';
 import { apolloClient } from './plugins/apollo';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <Navbar />
         <Map />
+        <Footer />
       </ThemeProvider>
     </ApolloProvider>
   );
