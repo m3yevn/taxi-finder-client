@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Taxi Finder Client 🍏
+This is a technical practice to write a single page web application to find taxi.
 
-## Available Scripts
+### About ℹ️
 
-In the project directory, you can run:
+The task is to create a single page Javascript application using React.
+The page should feature a map. The map should show markers illustrating
+the up-to-date locations of on-demand taxis in the area.
+The page should also feature a UI slider, that enables to change the
+amount of drivers displayed on the map. The range should be 1-50.
+In order to find the location of local Taxi's, will need to contact API,
+and get a list of driver locations.
+This endpoint will return a list of driver locations, nearby to the location.
 
-### `npm start`
+### Tech Stack 📚
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ - React for Frontend
+ - Rebass for UI
+ - Leaflet for canvas map
+ - Apollo for GraphQL
+ - Jest for testing
+ 
+### Note 🌞
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Due to CORS issue on the API, it is not able to call API directly from browser client app.
+Therefore, a GraphQL server is developed for calling REST API and act as a medium.
+In order to start this project, the GraphQL server is required to run first.
+Below is the git repository for it
 
-### `npm test`
+https://github.com/m3yevn/taxi-finder-graphql/
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### How to setup ⚙️
 
-### `npm run build`
+```sh
+    $ git clone
+    $ npm install
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### How to run normally 🏃‍♂️
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+``
+    $ npm run start
+``
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### How to test 🧪
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+``
+    $ npm run test
+``
