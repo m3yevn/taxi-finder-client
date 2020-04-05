@@ -1,6 +1,8 @@
-node_modules/
+node_modules
 README.md
 package-lock.json
 screenshots
 Dockerfile
-.git/
+build
+.git
+.gitignore
