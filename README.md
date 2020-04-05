@@ -1,4 +1,4 @@
-# Taxi Finder Client 🍏
+# Taxi Finder Client 🚕
 This is a technical practice to write a single page web application to find taxi.
 
 ### About ℹ️
@@ -14,11 +14,11 @@ This endpoint will return a list of driver locations, nearby to the location.
 
 ### Tech Stack 📚
 
- - React for Frontend 💎
- - Rebass for UI 🚀
- - Leaflet for canvas map 🔥 
- - Apollo for GraphQL 🚨
- - Jest for testing ✨
+ - React for Frontend
+ - Rebass for UI
+ - Leaflet for canvas map
+ - Apollo for GraphQL
+ - Jest for testing
  
 ### Note 🌞
 
@@ -52,4 +52,4 @@ https://github.com/m3yevn/taxi-finder-graphql/
 
 ### Screenshot
 
-<img src="https://raw.githubusercontent.com/m3yevn/taxi-finder-client/master/screenshots/taxi-finder-client-ss.png" alt="screenshot" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);" />
+<img src="screenshots/taxi-finder-client-ss.png" alt="screenshot" />
