@@ -50,6 +50,8 @@ https://github.com/m3yevn/taxi-finder-graphql/
     $ npm run test
 ``
 
+## ![Docker Pulls](https://img.shields.io/docker/pulls/m3yevn/taxi-finder-client?style=for-the-badge)
+
 ### How to run on Docker 🐳
 
 ```sh
